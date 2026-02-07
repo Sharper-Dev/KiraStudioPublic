@@ -65,9 +65,10 @@ Effects are applied one at a time, in a top-to-bottom order, but the channel vol
 
 Effects can be added by pressing the **(+) Add Effect** button below the last effect and can be deleted by right-clicking (or long-pressing on mobile) on a specific effect and selecting the delete option.
 
+<!--
 > TODO : Link to volume + balance effect.
-
 > TODO : Link effect reference here. 
+-->
 
 ## Master channel
 
@@ -114,4 +115,6 @@ As mentioned in the previous section, instruments can be edited through a channe
 
 # Automating parameters
 
+<!--
 > Mention that auto track + per note slides can still be changed, for preview purpose.
+-->

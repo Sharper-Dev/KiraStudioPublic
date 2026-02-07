@@ -38,7 +38,9 @@ Selected notes have a white outline around them and can be modified as a group.
 
 You can also select a time range of notes by doing a selection from the timeline, which is the row with the bar/beat numbers at the top.
 
+<!--
 > TODO : Animated GIF, desktop/mobile.
+-->
 
 ## Moving, transposing & resizing notes
 
@@ -72,7 +74,9 @@ The snapping precision is expressed in beats. This mean that using a 4/4 time si
 
 ## Changing the zoom level
 
+<!--
 > TODO : Check link to trackpad controls!
+-->
 
 On desktop, like in most views of the app, zooming horizontally is done using the mouse wheel, or a pinch gesture when using [trackpad controls](config.md). To zoom in vertically, simply use the mousewheel (or pinch on trackpad) on the vertical piano on the left. 
 
@@ -128,11 +132,15 @@ The speed and order in which individual notes of an arpeggio is played is contro
 
 ![](images/ArpeggioSettings.png#center)
 
+<!--
 > TODO : Do we explain the settings here? Or in PE page?
+-->
 
 ## Release modes
 
+<!--
 > TODO : Explain both modes, with images.
+-->
 
 ## Ghost notes
 

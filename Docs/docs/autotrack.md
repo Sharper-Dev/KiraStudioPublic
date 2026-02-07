@@ -2,7 +2,9 @@
 
 The **Automation Track Editor** is where you edit vertices of automation tracks. Automation tracks are special tracks that control the value of a single parameter, typically a pameter belonging to an instrument or effect of the parent channel, over the course of a song.
 
+<!--
 > TODO : Link to relevant PE section!
+-->
 
 To learn how to create an automation track for a given parameter, please refer to [this section](projectexplorer.md).
 

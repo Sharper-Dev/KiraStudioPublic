@@ -187,8 +187,17 @@ While KiraStudio is closed source at the moment, the code is an evolution of my 
 
 The app comes with a few demo songs. Most of them are covers, please go support both the original composers and the cover artists.
 
+- Celeste - First Steps (by [Lena Raine](https://www.youtube.com/@LenaRaine), cover by [How2Bboss](https://www.youtube.com/@How2Bboss), only first few bars for tutorial)
 - Deltarune - Ruder Buster (by [Toby Fox](https://x.com/tobyfox), cover by [How2Bboss](https://www.youtube.com/@How2Bboss))
+- [How2Bboss](https://www.youtube.com/@How2Bboss) - Cold Brew (original)
 - The Legend of Zeta Force - Zeta Force (by [Zabutom](https://www.youtube.com/@zabutom), cover by [How2Bboss](https://www.youtube.com/@How2Bboss))
 - Theme of Mega Man - Battle Network 6 (by Yoshino Aoki, cover by Omega Zero)
 
 Some of these demo songs require external SoundFonts, please visit [this page](soundfonts.md) for direct download links.
+
+## Translations
+
+Finally, massive thanks to the translators who painstakingly translated the hundreds of strings of the app:
+
+- Russian : fluffykn1ght
+

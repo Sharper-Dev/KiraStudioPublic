@@ -10,7 +10,9 @@ There are 3 main types of curves in KiraStudio:
 
 - **Sequence** : Sequences are discrete series of numbers, represented as a bar graph. They mostly exist to give more granual control over the values when running at low update rates and trying to reproduce the behavior of retro consoles (e.g. sound like a console that ran at 60Hz). For this reason, the speed at which they they advance is intimately tied to the [update rate](instruments.md) of your project.
 
+<!--
 > TODO : Make sure this points to the right place.
+-->
 
 Not every parameter will offer you all 3 types of curves, it will try to offer you a selection that makes sense for the type of parameter.
 
@@ -115,7 +117,9 @@ For example:
 - If your project update rate is 1500 Hz (the default) and the advance rate is 25, each column represent 1/60th of a second (25 / 1500). 
 - If your project update rate is 60 Hz (good for retro video game music) and the advance rate is 1, each column also represents 1/60th of a second (1 / 60).
 
+<!--
 > TODO : Link to where we discuss project settings.
+-->
 
 ![](images/Sequence.png#center)
 
