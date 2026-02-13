@@ -21,7 +21,7 @@ Welcome to the KiraStudio documentation. Please use the __User Guide__ menu abov
 
 # Tutorial 
 
-The quickest way of getting started with KiraStudio is simply to follow this tutorial video step by step. It will walk you through the creation a simple song, from beginning to end. There is a Desktop and Mobile version of the tutorial.
+The quickest way of getting started with KiraStudio is simply to follow this tutorial video, step-by-step. It will walk you through the creation of a simple song, from beginning to end. There is a Desktop and Mobile version of the tutorial.
 
 === "Desktop"
     <iframe src="https://www.youtube.com/embed/pUvH-1Cz8v0?si=xI3Aityw2ixMF5FZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 90%; aspect-ratio: 16/9; display: block; margin: 0 auto;"></iframe>

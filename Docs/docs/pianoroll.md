@@ -1,14 +1,14 @@
 # Overview
 
-The **Piano Roll** is where you enter notes inside of patterns and likely where you will be spending most of your time in the app.
+The **Piano Roll** is where you enter notes inside of patterns, and likely where you will be spending most of your time in the app.
 
 The piano roll is made of a few components:
 
-* On the left is the **Vertical Piano** which can be used to preview the instrument of the selected channel. Note that the selected channel may not necessarely be the one being edited.
-* On the top is the **Timeline** which display the beats in a `Bar.Beat` format and the pattern names/colors.
+* On the left is the **Vertical Piano**, which can be used to preview the instrument of the selected channel. Note that the selected channel may not necessarily be the one being edited.
+* On the top is the **Timeline**, which display the beats in a `Bar.Beat` format along with the pattern names/colors.
 * In the middle is the piano roll itself where notes are edited.
-* In the top-right corner is the **Floating Toolbar** which contains various snapping and view options.
-* At the bottom is the **Note Parameter Editor** where extra note parameters (velocity, pan, aftertouch, etc.) can be edited. This panel revealed by using the optionon the floating toolbar.
+* In the top-right corner is the **Floating Toolbar**, which contains various snapping and view options.
+* At the bottom is the **Note Parameter Editor**, where extra note parameters (velocity, pan, aftertouch, etc.) can be edited. This panel can be revealed by using the option on the floating toolbar.
 
 ![](images/PianoRoll.png#center)
 
@@ -22,12 +22,12 @@ We will focus our attention to the center of the piano roll where all the notes 
 
 To add a new note, simply click on an empty space.
 
-On desktop, you can choose between 2 editing modes in the floating toolbar. Both will create a note of the last duration used, they only differ on what happens when you move afterwards, while still holding the mouse button
+On desktop, you can choose between 2 editing modes in the floating toolbar. Both will create a note of the last duration used, they only differ on what happens when you move afterwards, while still holding the mouse button.
 
 * **Click & Move** : Moving after the initial click will allow you to reposition the note.
 * **Click & Resize** : Moving after the initial click will allow you to change the duration of the note.
 
-On all platforms, deleting single notes is achieve by double-clicking. **Shift-Click** is also an alternate option on desktop.
+On all platforms, deleting single notes is achieved by double-clicking. **Shift-Click** is also an alternate option on desktop.
 
 ## Selecting notes
 
@@ -44,14 +44,14 @@ You can also select a time range of notes by doing a selection from the timeline
 
 ## Moving, transposing & resizing notes
 
-To move notes simple click and drag. When starting a drag from a selected note, all the selected notes will together.
+To move notes, simply click and drag. When starting a drag from a selected note, all the selected notes will move together.
 
-* On desktop, notes can be resized by grabbing their left or right side edge and dragging. Desktop can also move notes using the arrow keys. Pressing up/down will transpose by 1 semitone or 1 octave if **Ctrl** is held at the same time. Pressing left/right will move by the amount of the currently selected snapping precision.
-* On mobile, notes are resized by using one of the big colored resize handle.
+* On desktop, notes can be resized by grabbing their left or right side edge and dragging. Desktop can also move notes using the arrow keys. Pressing up/down will transpose by 1 semitone, or 1 octave if **Ctrl** is held at the same time. Pressing left/right will move by the amount of the currently selected snapping precision.
+* On mobile, notes are resized by using one of the big colored resize handles.
 
 ## Duplicating notes
 
-When there us more than 1 note selected, the entire selection can be duplicated by dragging from the **Colored Paperstack Icon** and release it where you want to create the copy. On desktop, the same can also be accomplished by pressing and holding **Ctrl** while dragging notes.
+When there is more than 1 note selected, the entire selection can be duplicated by dragging from the **Colored Paperstack Icon** and releasing it where you want to create the copy. On desktop, the same can also be accomplished by pressing and holding **Ctrl** while dragging notes.
 
 === "Desktop"
     ![](images/DuplicateNotesDesktop.gif#center)
@@ -60,15 +60,15 @@ When there us more than 1 note selected, the entire selection can be duplicated 
 
 ## Copy & pasting notes
 
-An alternative way of duplicating notes is to use copy & paste. This provides more flexibility as it allows copy and pasting notes between tracks.
+An alternative way of duplicating notes is to use copy & paste. This provides more flexibility, as it allows copy and pasting notes between tracks.
 
-1. Copy notes to the clipboard by making a selection and pressing **Ctrl+C**, or use the toolbar button.
-2. Position the playhead at the desired location 
-3. Paste the stored notes using **Ctrl+V**, or use the toolbar button on mobile.
+1. Copy notes to the clipboard by making a selection and pressing **Ctrl+C**, or by using the toolbar button.
+2. Position the playhead at the desired location.
+3. Paste the stored notes using **Ctrl+V**, or by using the toolbar button on mobile.
 
 ## Snapping to beats
 
-Snapping to beats (i.e. vertical grid) can be toggled from the floating toolbar on the right and the precision can be adjusted. 
+Snapping to beats (i.e. vertical grid) can be toggled from the floating toolbar on the right, and the precision can be adjusted. 
 
 The snapping precision is expressed in beats. This mean that using a 4/4 time signature, for example, snapping to 1/4 Beat snaps to 1/16th notes.
 
@@ -84,36 +84,36 @@ On mobile, all zooming is done with a pinch gesture.
 
 ## Slide notes
 
-Slide notes are notes that start at a given pitch (the pitch of the note) and slowly change to hit a target pitch which is represented by where the triangle ends.
+Slide notes are notes that start at a given pitch (the pitch of the note) and slowly change to hit a target pitch, which is represented by where the triangle ends.
 
 ![](images/SlideNotes.png#center)
 
-To create a slide note, simple select one of the 3 slide note mode from the contextual menu that appears when right-clicking (long-pressing on mobile) on a note. Alternatively on desktop, holding the **S** key, clicking on a note and dragging up/down will start the creation of a slide note.
+To create a slide note, simply select one of the 3 slide note modes from the contextual menu that appears when right-clicking (long-pressing on mobile) on a note. An alternative on desktop is to hold the **S** key, click on a note and drag up/down, which will start the creation of a slide note.
 
 There are 3 types of slide notes:
 
-* **Note Linear** : This is roughly the equivalent of doing a glissando on a piano. The note value itself (ex: A4 to A5) will be interpolated, leading to a natural sounding slide. Unless you are trying to achieve a specific retro or chiptune effect, use this mode.
+* **Note Linear** : This is roughly the equivalent of doing a glissando on a piano. The note value itself (ex: A4 to A5) will be interpolated, leading to a natural-sounding slide. Unless you are trying to achieve a specific retro or chiptune effect, use this mode.
 * **Frequency Linear** : This will interpolate the frequency of the note (ex: 440Hz to 880Hz) and use the result as the final frequency. 
-* **Period Linear** : This will interpolate the period (ex: 1/440Hz to 1/880Hz) and use this as the final frequency. This mode is particularly useful to mimic the behavior of retro/chiptune slides.
+* **Period Linear** : This will interpolate the period (ex: 1/440Hz to 1/880Hz) and use this as the final frequency. This mode is particularly useful for mimicking the behavior of retro/chiptune slides.
 
 The frequency and period linear modes will display a convex or concave slide note. Please note that this is simply a rough visual cue and does not accurately represent the pitch of the note that will actually play. 
 
 The target and duration of a slide note can be modified by dragging the **Four-Arrows Icon** that will appear if a slide note is present. 
 
 * When using the [note end release mode](#release-modes), slide notes can extend beyond the release of the note, as sound can still be heard during the release. 
-* When using the [manual release mode](#release-modes), slide notes we be required to end exactly at the end of the note, as this represent a hard-kill. When using the 
+* When using the [manual release mode](#release-modes), slide notes will be required to end exactly at the end of the note, as this represent a hard-kill.
 
 ## Disabling attack
 
-By default, notes have an attack which mean they will restart their envelopes from the beginning. 
+By default notes have an attack, which means they will restart their envelopes from the beginning. 
 
-The attack can be toggled for a particular note by selecting the **Toggle Note Attack** option from the contextual menu that appear when right-clicking (long-pressing on mobile). 
+The attack can be toggled for a particular note by selecting the **Toggle Note Attack** option from the contextual menu that appears when right-clicking (long-pressing on mobile). 
 
-Notes with no attack will show an ellipsis (...) before their value. This can be seen in the image above where is note following a slide note has its attack disabled to create a single, long, gliding note.
+Notes with no attack will show an ellipsis (...) before their value. This can be seen in the image above, where the note following a slide note has its attack disabled to create a single, long, gliding note.
 
-Disabling the attack in the piano roll does not garantee it will always work. In general, you should try to keep the note without attack in close proximity to the end of another note. Failure to do so may result in the attack still playing.
+Disabling the attack in the piano roll does not guarantee it will always work. In general, you should try to keep the note without attack in close proximity to the end of another note. Failure to do so may result in the attack still playing.
 
-Here is a more technical breakdown of how it all work. When the player encounter a note without attack, it will look for a previous note still producing sound that can be continued by the note without attack.
+Here is a more technical breakdown of how it all works: When the player encounter a note without attack, it will look for a previous note still producing sound that can be continued by the note without attack.
 
 1. If the note without attack is **immediately** after the end of an existing note, it will continue it.
 2. If the note without attack is shortly after the end of an existing note, while its release is still playing, it will continue it and stay in the release state.
@@ -122,7 +122,7 @@ If there are multiple candidate notes, it will take the one with the closest mat
 
 ## Arpeggio chords
 
-**Arpeggio Chords** take the notes of a chord and arpeggiate it rapidly in a pre-defined sequence. This option is mostly there to mimic a trick often used in chiptune songs where composers would play notes of a chords in quick succession to make up for the lack of polyphony on old hardware.
+**Arpeggio Chords** take the notes of a chord and arpeggiate it rapidly, in a pre-defined sequence. This option is mostly there to mimic a trick often used in chiptune songs, where composers would play notes of a chords in quick succession to make up for the lack of polyphony on old hardware.
 
 To enable arpeggio chords, simply select the notes of a chord, right-click on any selected note (long-press on mobile) and select **Toggle Selection Arpeggio Chords** from the contextual menu. Visually, notes with arpeggio chords enabled will be drawn with a stripe pattern.
 
@@ -144,7 +144,7 @@ The speed and order in which individual notes of an arpeggio is played is contro
 
 ## Ghost notes
 
-**Ghost Notes** are a visual tool allowing you to see a semi-transparent version of the notes of another channel while editing another. This can be useful to align things to each other. 
+**Ghost Notes** are a visual tool allowing you to see a semi-transparent version of the notes of a channel while editing another. This can be useful to align notes across several channels. 
 
 ![](images/GhostNotes.png#center)
 
@@ -156,11 +156,11 @@ The note parameter editor can be opening using the option in the floating toolba
 
 ![](images/NoteParamEditor.png#center)
 
-This editor only shows one parameter at a given time and you can chose which one by using the option in the floating toolbar.
+This editor only shows one parameter at a given time, and can be chosen by using the option in the floating toolbar.
 
 ## Editing note parameters
 
-Editing note parameters is quite simple, simply click and drag to paint values. If notes are currently selected, only the selected notes can be edited. 
+Editing note parameters is as simple as clicking and dragging to paint the values. If notes are currently selected, only the selected notes can be edited. 
 
 ## Snapping
 
@@ -168,13 +168,13 @@ You can snap the painted values to the major grid by enabling the **Parameter Va
 
 ## Changing the zoom level
 
-On desktop, you can zoom vertically and get more precision when editing note parameters by simply use the mousewheel (or pinch on trackpad) on the scale on the left side of the parameter editor. 
+On desktop, you can zoom vertically to get more precision when editing note parameters. Simply use the mousewheel (or pinch on trackpad) on the scale to the left of the parameter editor. 
 
 ## Note parameter curves
 
-Some parameters, such as Velocity, only support a single constant values for each note. Other types of parameter may support having their parameter value change during the playback of a note. 
+Some parameters, such as Velocity, only support a single constant value for each note. Others may support having their value change during the playback of a note. 
 
-The type of value for a given note parameter can be changed through the **Value Type** option of the floating toolbar while one or more notes are selected. If the option is greyed out, it means this parameter does not support curves.
+The type of value for a given note parameter can be changed through the **Value Type** option of the floating toolbar while one or more notes are selected. If the option is greyed out, it means the parameter does not support curves.
 
 * **Constant** : a single value that remains constant.
 * **Curve** : a value that can change abrutly.

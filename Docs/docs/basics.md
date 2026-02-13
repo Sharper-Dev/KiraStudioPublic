@@ -2,12 +2,12 @@
 
 ## Basic Desktop Controls
 
-Most of the operations are performed with the mouse. In general:
+Most operations are performed with the mouse. In general:
 
 * The **Left mouse button** adds and removes stuff. 
-    * **Single-clicking** add notes/patterns.
+    * **Single-clicking** adds notes/patterns.
     * **Double-clicking** deletes notes/patterns.
-* The **Light mouse button** opens context menus and selects things.
+* The **Right mouse button** opens context menus and selects things.
     * **Right-clicking** quickly will open a context menu.
     * **Right-clicking + holding and dragging** will select a range of notes or patterns in the piano roll or sequencer.
 * The **Middle mouse button** is used for navigation:
@@ -31,13 +31,13 @@ The main window is composed of a few main controls:
 
 * The **Toolbar** contains shortcuts to various common functions such as undo/redo, copy/paste, etc. 
 
-* The **[Sequencer](sequencer.md)** (or Pattern Editor) is where you add or remove channels & tracks. It is also where organize your patterns, which are reusable little snippets of music that form the high-level structure of your songs. On mobile, this is your home base and where you always return to when you close every views. 
+* The **[Sequencer](sequencer.md)** (or Pattern Editor) is where you add or remove channels & tracks. It is also where you organize patterns, which are reusable little snippets of music that form the high-level structure of your songs. On mobile, this is your home base and where you always return to when you close every other view. 
 
-* Below the Sequencer are various views such as the **[Piano Roll](pianoroll.md)**, **[Automation Tracks Editor](autotrack.md)**, various **[Curve Editor](envelopes.md)**, etc. On phones, these views are full-screen and are opened and closed as needed. 
+* Below the Sequencer are various views such as the **[Piano Roll](pianoroll.md)**, **[Automation Track Editor](autotrack.md)**, various **[Curve Editors](envelopes.md)** and so on. On mobile, these views are full-screen and can be opened and closed as needed. 
 
-* The right side pannel is the **[Project Explorer](instruments.md)**. This panel allows navigating through the various objects in your projects (songs, instruments, effects, etc). It also allows editing and automating the parameters of these objects. On mobile, this panel retracts and can be opened by either pressing the **Project** button in the toolbar, or by double-tapping a channel in the Sequencer. 
+* The right-side panel is the **[Project Explorer](instruments.md)**. This panel allows for navigating through the various objects in your projects (songs, instruments, effects, etc). It also enables the editing and automating of parameters for these objects. On mobile, this panel retracts and can be opened by either pressing the **Project** button in the toolbar or by double-tapping a channel in the Sequencer. 
 
-* The **Pop-up Piano** is at the very bottom. This piano allows previewing the instrument associated with the **Active Channel**, which is the highlighted channel in the Sequencer. This piano can be toggled using the **Piano** button in the toolbar.
+* The **Pop-up Piano** is at the very bottom. This piano allows the previewing of instruments associated with the **Active Channel**, which is the highlighted channel in the Sequencer. This piano can be toggled using the **Piano** button in the toolbar.
 
 <!--
 - TODO : Tablet screenshot + crop titlebar + write name of things on images.

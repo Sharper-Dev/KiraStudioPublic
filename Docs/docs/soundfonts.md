@@ -10,11 +10,11 @@ This page provides direct download links to the SoundFonts required to listen to
 	
 To load the SoundFonts in the demo songs:
 
-1. Locate a channel using one of the missing SoundFont. SoundFont channels have a **A&#8203;_A_** icon. 
+1. Locate a channel using one of the missing SoundFonts. SoundFont channels have a **A&#8203;_A_** icon. 
 	* On desktop, click on the channel name to show its settings in the Project Explorer.
 	* On Mobile, double-tap on the channel name and the Project Explorer will appear.
-2. In the Project Explorer, in the SoundFont generator settings, look for a red warning sign next to the SoundFont name and click it. 
-3. Locate the reqested SoundFont somewhere on your device.
+2. In the Project Explorer, under the SoundFont generator settings, look for a red warning sign next to the SoundFont name and click it. 
+3. Locate the requested SoundFont on your device.
 
 === "Desktop"
     ![](images/LoadSoundFontDesktop.gif#center)

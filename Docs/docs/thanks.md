@@ -1,14 +1,14 @@
 # Acknowledgements
 
-KiraStudio uses the work of amazing developers and artists. This page attempts to acknowledge these contributions. 
+KiraStudio would not have been possible without the work of some amazing developers and artists. This page is to acknowledge these contributions where possible.
 
 ## Licenses
 
-The app uses a few library with permissive licenses, please go and support each of these projects.
+The app uses a few libraries with permissive licenses. Please go and support these projects:
 
 ### GLFW
 
-[GLFW](https://www.glfw.org/) is a fantastic little window system for OpenGL and Vulkan apps. It is released under the zlib/libpng license, you will find the required text below which is taken from their [license page](https://www.glfw.org/license).
+[GLFW](https://www.glfw.org/) is a fantastic little window system for OpenGL and Vulkan apps that is released under the zlib/libpng license. You will find the required text below, which is taken from their [license page](https://www.glfw.org/license).
 
 ```text
 Copyright © 2002-2006 Marcus Geelnard
@@ -28,7 +28,7 @@ This notice may not be removed or altered from any source distribution.
 
 ### YMFM
 
-[YMFM](https://github.com/aaronsgiles/ymfm) is a great library for emulating many of the Yamaha sound chips. It is used in MAME and countless other projects. It is released under the BSD 3-Clause License.
+[YMFM](https://github.com/aaronsgiles/ymfm) is a great library for emulating many of Yamaha's sound chips, and is used in MAME and countless other projects. It is released under the BSD 3-Clause License.
 
 ```text
 BSD 3-Clause License
@@ -64,7 +64,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### OGG/Vorbis
 
-The [Vorbis](https://xiph.org/vorbis/) audio compression format and its OGG container format require no introduction. The app uses it for both import and export. It is released under the BSD-3-Clause license.
+The [Vorbis](https://xiph.org/vorbis/) audio compression format and its OGG container format requires no introduction. The app uses it in both the importing and exporting of audio. It is released under the BSD-3-Clause license.
 
 ```text
 Copyright (c) 2002-2020 Xiph.org Foundation
@@ -99,11 +99,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### GeneralUser GS
 
-[GeneralUser GS 2.0.2](https://schristiancollins.com/generaluser.php) by S. Christian Collins is amazingly compact GS/GM SoundFont. It punches way about its weight in kilobyes. Please go and support their work, or [buy them a coffee here](https://buymeacoffee.com/schristiancollins).
+[GeneralUser GS 2.0.2](https://schristiancollins.com/generaluser.php) by S. Christian Collins is an amazingly compact GS/GM SoundFont that punches way above its weight in kilobytes. Please go and support their work, or [buy them a coffee here](https://buymeacoffee.com/schristiancollins).
 
 The app comes bundles with an OGG-compressed version of the SoundFont to keep the size of the app relatively small. The compressed version was made using MuseScore's amazing [sftools](https://github.com/musescore/sftools).
 
-Im am including the license that comes with the SoundFont here for completeness.
+I am including the license that comes with the SoundFont here for completeness.
 
 ```text
 *** GeneralUser GS v2.0.1 ***
@@ -157,11 +157,11 @@ Thank you!
 
 ### Freeverb
 
-Freeverb is public domain reverb implementation from the early 2000s. Developed by "Jezar at Dreampoint", it is a great, easy to use, reverb implementation.
+Freeverb is a reverb implementation from the early 2000s that is in the public domain. Developed by "Jezar at Dreampoint", it is great and easy-to-use.
 
-I do not think it has an official website anymore, this [repo](https://github.com/sinshu/freeverb) hosts a copy of it. 
+I do not think it has an official website anymore, but this [repo](https://github.com/sinshu/freeverb) hosts a copy of it. 
 
-Here is a snipped of the original license, which can be read on the repo linked above.
+Here is a snippet of the original license, the full text of which can be read in the repo linked above.
 
 ```text
 Feel free to use the source code for Freeverb in any of your own products, whether they are also available for free, or even if they are commercial - I really don't mind. You may do with the code whatever you wish. 
@@ -169,7 +169,7 @@ Feel free to use the source code for Freeverb in any of your own products, wheth
 
 ## Other Projects
 
-I want to acknowledge some other projects that, while not providing code or libraries directly, were either inspirations or useful tools during development.
+I also want to acknowledge some other projects that, while not providing code or libraries directly, were either inspirations or useful tools during development.
 
 ### MeltySynth
 
@@ -177,21 +177,21 @@ I want to acknowledge some other projects that, while not providing code or libr
 
 ### Polyphone
 
-[Polyphone](https://www.polyphone.io/) is the de-facto tool for SoundFont editing. I used it as a benchmark to compared against during development. Not only is it a great tool, but the website as a ever growing collection of user-generated SoundFonts, which makes it a great resource for KiraStudio as well.
+[Polyphone](https://www.polyphone.io/) is the de facto tool for SoundFont editing. I used it as a benchmark to compare against during development. Not only is it a great tool, but the website is an ever-growing collection of user-generated SoundFonts, which makes it a great resource for KiraStudio as well.
 
 ### FamiStudio
 
-While KiraStudio is closed source at the moment, the code is an evolution of my other open-source project, [FamiStudio](http://famistudio.org). If you are curious how a slightly more primitive version of the app was put together, go check it out.
+While KiraStudio is closed source at the moment, the code is an evolution of my other open-source project, [FamiStudio](http://famistudio.org). If you are curious about how a slightly more primitive version of this app was put together, go and check it out.
 
 ## Demo Songs
 
-The app comes with a few demo songs. Most of them are covers, please go support both the original composers and the cover artists.
+The app comes with a few demo songs. Most of them are covers, so please go support both the original composers and the cover artists.
 
 - Celeste - First Steps (by [Lena Raine](https://www.youtube.com/@LenaRaine), cover by [How2Bboss](https://www.youtube.com/@How2Bboss), only first few bars for tutorial)
 - Deltarune - Ruder Buster (by [Toby Fox](https://x.com/tobyfox), cover by [How2Bboss](https://www.youtube.com/@How2Bboss))
 - [How2Bboss](https://www.youtube.com/@How2Bboss) - Cold Brew (original)
 - The Legend of Zeta Force - Zeta Force (by [Zabutom](https://www.youtube.com/@zabutom), cover by [How2Bboss](https://www.youtube.com/@How2Bboss))
-- Theme of Mega Man - Battle Network 6 (by Yoshino Aoki, cover by Omega Zero)
+- Theme of Mega Man - Battle Network 6 (by Yoshino Aoki, cover by [Omega Zero](https://www.youtube.com/@ariankar98k))
 
 Some of these demo songs require external SoundFonts, please visit [this page](soundfonts.md) for direct download links.
 
