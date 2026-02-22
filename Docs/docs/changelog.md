@@ -14,6 +14,7 @@ Changes/Fixes:
 * Fixed a few crashes and issues on tablet when the bottom panel becomes too small with certain scalings
 * Fixed files not truncating on Android, meaning they would only grow in size, never shrink
 * Fixed notes in instanced patterns loosing their selection in the piano roll when moving them
+* Improved overzealous fling gesture on IOS causing views to always scroll a bit after lifting your finger.
 * Added a few error messages when failing to open project files (new version, corrupted, etc.)
 * Added list of already loaded soundfonts to avoid having to having to constantly open from storage
 * Added context menu to solo/mute channels
