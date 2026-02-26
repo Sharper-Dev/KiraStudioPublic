@@ -2,7 +2,15 @@
 
 Version history / release notes for each release. 
 
-## Version 1.0.2 (Hotfix)
+[](){#version-103-hotfix}
+## Version 1.0.3
+
+Changes/Fixes:
+
+* Fixed crash moving notes on top of each other introduced in 1.0.2
+
+[](){#version-102-hotfix}
+## Version 1.0.2
 
 Changes/Fixes:
 
@@ -26,7 +34,8 @@ Changes/Fixes:
 * Added ability to use per-note curves on all duty cycle parameters
 * Added Chinese translation for real this time, was missing on Windows in 1.0.1 (Thanks FREirc!)
 
-## Version 1.0.1 (Hotfix)
+[](){#version-101-hotfix}
+## Version 1.0.1
 
 Changes/Fixes:
 
