@@ -30,3 +30,4 @@ plugins:
   - meta-descriptions
 markdown_extensions:
   - pymdownx.tabbed
+  - attr_list
