@@ -99,7 +99,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### GeneralUser GS
 
-[GeneralUser GS 2.0.2](https://schristiancollins.com/generaluser.php) by S. Christian Collins is an amazingly compact GS/GM SoundFont that punches way above its weight in kilobytes. Please go and support their work, or [buy them a coffee here](https://buymeacoffee.com/schristiancollins).
+[GeneralUser GS 2.0.3](https://schristiancollins.com/generaluser.php) by S. Christian Collins is an amazingly compact GS/GM SoundFont that punches way above its weight in kilobytes. Please go and support their work, or [buy them a coffee here](https://buymeacoffee.com/schristiancollins).
 
 The app comes bundles with an OGG-compressed version of the SoundFont to keep the size of the app relatively small. The compressed version was made using MuseScore's amazing [sftools](https://github.com/musescore/sftools).
 
